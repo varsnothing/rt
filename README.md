@@ -7,3 +7,5 @@ cp .env.public .env
 npm ci
 npm run dev
 ```
+
+Visit https://localhost:3000 to use the application.

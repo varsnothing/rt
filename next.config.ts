@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["image.tmdb.org"],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/movies',
+        permanent: false,
+      },
+    ]
+  },
 };
 
 export default nextConfig;
